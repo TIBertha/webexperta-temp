@@ -52,3 +52,37 @@ html, body {
     color: white !important;
     font-size: 20px !important;
 }
+
+.select-country-style{
+    .t1, .t2, .t3, a{
+        color: #676767;
+    }
+
+    .t1,.t2, .country-link>p{
+        font-weight: bold;
+    }
+
+    .t1{
+        font-size: 40px;
+    }
+
+    .t2, .country-link>p{
+        font-size: 30px;
+    }
+
+    .t3{
+        font-size: 20px;
+    }
+
+    .country-link{
+        &, &:hover, &:active, &:focus, p, p:hover, p:active, p:focus{
+            text-decoration: none !important;
+            color: black;
+        }
+
+        p{
+            color: black;
+            padding: 0.5rem 0;
+        }
+    }
+}

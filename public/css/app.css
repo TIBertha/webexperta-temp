@@ -55,6 +55,30 @@ html, body {
   font-size: 20px !important;
 }
 
+.select-country-style .t1, .select-country-style .t2, .select-country-style .t3, .select-country-style a {
+  color: #676767;
+}
+.select-country-style .t1, .select-country-style .t2, .select-country-style .country-link > p {
+  font-weight: bold;
+}
+.select-country-style .t1 {
+  font-size: 40px;
+}
+.select-country-style .t2, .select-country-style .country-link > p {
+  font-size: 30px;
+}
+.select-country-style .t3 {
+  font-size: 20px;
+}
+.select-country-style .country-link, .select-country-style .country-link:hover, .select-country-style .country-link:active, .select-country-style .country-link:focus, .select-country-style .country-link p, .select-country-style .country-link p:hover, .select-country-style .country-link p:active, .select-country-style .country-link p:focus {
+  text-decoration: none !important;
+  color: black;
+}
+.select-country-style .country-link p {
+  color: black;
+  padding: 0.5rem 0;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

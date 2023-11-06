@@ -16,18 +16,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="flex-center position-ref full-height">
-    <div class="container content">
-        <div class="title bt-purple font-weight-bold">
-            Hola, soy Bertha
+<section class="flex-center position-ref">
+    <div class="bg-gray">
+        <div class="container py-5">
+            <div class="row my-2 justify-content-center select-country-style">
+
+            <div class="col-12 col-md-7 py-1  text-center">
+                <img src="{{ asset('img/logo.png') }}" class="w-50"/>
+            </div>
+
+            <div class="col-12 py-1">
+                <div class="t1">¡Hola! <br/> Selecciona un país</div>
+            </div>
+
+            <div class="col-12 pt-5 pb-2">
+                <div class="row mx-0 justify-content-around">
+                    <div class="col-5 text-center">
+                        <a class="country-link" href="https://holabertha.com/es-pe{{$_SERVER['REQUEST_URI']}}">
+                            <img class="w-50" src="{{ asset('img/peru-flag.jpg') }}"/>
+                            <p class=“text-center”>Perú</p>
+                        </a>
+                    </div>
+
+                    <div class="col-5 text-center">
+                        <a class="country-link" href="https://holabertha.com/es-cl{{$_SERVER['REQUEST_URI']}}">
+                            <img class="w-50" src="{{ asset('img/chile-flag.jpg') }}"/>
+                            <p class="text-center">Chile</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-12 py-2">
+                    <hr/>
+                </div>
+
+                <div class="col-12 py-2">
+                    <div class="t2">
+                        ¿Buscas a una trabajadora para tu hogar?
+                    </div>
+                </div>
+
+                <div class="col-12 py-2">
+                    <div class="t3">
+                        Te conectamos con trabajadoras con experiencia y sin antecedentes.
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-        <div class="cont my-3 bt-purple">
-            Soy tu agencia de empleos online. Nos estamos renovando, ahora ingresa a nuestra web haciendo clic aquí:
-        </div>
-        <div class="">
-            <a class="btn btn-lg btn-pink-bertha" href="https://holabertha.com{{$_SERVER['REQUEST_URI']}}">
-                Ir a nueva web
-            </a>
+        <div class="row mx-0 justify-content-center">
+            <div class="col-6 col-md-5">
+                <img src="{{ asset('img/index_home_2.png') }}" class="w-100" />
+            </div>
         </div>
     </div>
 </section>
