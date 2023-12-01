@@ -33,14 +33,14 @@
                 <div class="row mx-0 justify-content-around">
                     <div class="col-5 text-center">
                         <a class="country-link" href="https://holabertha.com/es-pe{{$_SERVER['REQUEST_URI']}}">
-                            <img class="w-50" src="{{ asset('img/peru-flag.jpg') }}"/>
+                            <img class="w-50  border-flag" src="{{ asset('img/peru-flag.jpg') }}"/>
                             <p class=“text-center”>Perú</p>
                         </a>
                     </div>
 
                     <div class="col-5 text-center">
                         <a class="country-link" href="https://holabertha.com/es-cl{{$_SERVER['REQUEST_URI']}}">
-                            <img class="w-50" src="{{ asset('img/chile-flag.jpg') }}"/>
+                            <img class="w-50  border-flag" src="{{ asset('img/chile-flag.jpg') }}"/>
                             <p class="text-center">Chile</p>
                         </a>
                     </div>
@@ -66,11 +66,13 @@
             </div>
 
         </div>
-        <div class="row mx-0 justify-content-center">
-            <div class="col-6 col-md-5">
-                <img src="{{ asset('img/index_home_2.png') }}" class="w-100" />
+
+        <div class="row mx-0 text-center">
+            <div class="col-12 px-3 px-lg-0 padding-girls">
+                <img src="{{ asset('img/chicas-barra-2.svg') }}" class="img-chicas-pedido-tc" />
             </div>
         </div>
+
     </div>
 </section>
 

@@ -85,4 +85,24 @@ html, body {
             padding: 0.5rem 0;
         }
     }
+
+    .border-flag{
+        border-radius: 0.25rem;
+    }
+}
+
+.img-chicas-pedido-tc{
+    width: 100%;
+}
+
+@media screen and (min-width: 991px){
+    .img-chicas-pedido-tc{
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .padding-girls{
+        padding-top: 38px;
+    }
 }
